@@ -2,7 +2,7 @@ import Rpi.GPIO as gpio
 import time
 
 gpio.setmode(gpio,BCM)
-gpio.setup(21,gpio.out)
+gpio.setup(21,gpio.OUT)
 
 while(1):
 	x=input('Enter the state')

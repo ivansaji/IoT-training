@@ -20,5 +20,7 @@ while(True):
         pulse_start = time.time()
     while gpio.input(echo)==1:      # used to mark end time
         pulse_end = time.time()
-
-    
+    pulse_duration = pulse_end - pulse_start
+    distance = pulse_duration*17150
+    distance = round(distance,2)
+    print("Distance is" + distance + "cm")

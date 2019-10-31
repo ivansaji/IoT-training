@@ -1,6 +1,6 @@
 import time
-import smtplib
-from email.mime.multipart import MIMEMultipart
+import smtplib          #mail protocol client
+from email.mime.multipart import MIMEMultipart      #Import modules for using mail servers
 
 gmail_user = "abcd@gmail.com"   #Enter the user email ID
 gmail_pwd = "your passwd"       #Enter the User Password

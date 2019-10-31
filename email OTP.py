@@ -8,7 +8,8 @@ gmail_pwd = "your passwd"       #Enter the User Password
 TO = ['1234@gmail.com']     # must be a list (Recepient mail)
 msg = MIMEMultipart()
 time.sleep(1)
-msg['Subject'] = 'testing msg send from python'
+otp = 'Your OTP is  ' + str(random.randint(10000,99999))
+msg['Subject'] = otp
 try:
     server = smtplib.SMTP("smtp.gmail.com",587)
     print("SMTP Success")

@@ -1,3 +1,5 @@
+# To use this module.... provide access to less secure apps in account manager
+
 import time
 import random
 import smtplib          #mail protocol client

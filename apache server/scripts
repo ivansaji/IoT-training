@@ -1,0 +1,5 @@
+sudo apt-get install apache2 php5
+then install wiring pi form github
+
+sudo apt-get install git-core
+git clone git://git.dragon.net/wiringpi

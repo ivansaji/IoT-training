@@ -25,3 +25,9 @@ try:
     print("successfully send mail....")
 except:
     print("Some Error")
+
+user_otp = input("Enter your OTP send to "+ TO)
+if user_otp == otp:
+    print("OTP Accepted")
+else:
+    print("Invalid OTP")
